@@ -62,3 +62,6 @@ a {
   font-size: 17px;
   text-decoration: none;
 }
+.poem strong {
+  color: rgb(5, 53, 38);
+}
