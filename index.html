@@ -4,37 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <title>Nature Poems</title>
   </head>
-  <body>
-    <header>🪷 AI Nature Poems Generator🪷</header>
+  <body background="images/DSC_0496.JPG">
+    <div class="container">
+      <header><h1>Nature Poems Generator</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of your Nature Poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <p>i.e: Flower, Sun or River</p>
-    </main>
-
-    <div class="poem">
-      Ever, ever <br />
-      Stir and shiver <br />The reeds and rushes <br />By the river:
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of your Nature Poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="enter-topic-box"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <br />
+        <br />
+      </main>
+      <div class="poem">
+        Ever, ever <br />
+        Stir and shiver <br />The reeds and rushes <br />By the river:
+      </div>
+      <br />
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/PopovMaja" target="_blank">Maja Popov</a>
+        and is open-sourced on
+        <a href="https://github.com/PopovMaja/NaturePoems" target="_blank"
+          >GitHub</a
+        >
+      </footer>
     </div>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/PopovMaja" target="_blank">Maja Popov</a> and
-      is open-sourced on
-      <a href="https://github.com/PopovMaja/NaturePoems" target="_blank"
-        >GitHub</a
-      >
-    </footer>
   </body>
   <script src="src/index.js"></script>
 </html>
