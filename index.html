@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Nature Poems</title>
   </head>
   <body background="images/DSC_0496.JPG">
@@ -17,7 +18,7 @@
       <header><h1>Nature Poems Generator</h1></header>
 
       <main>
-        <form>
+        <form id="enter-submit-box">
           <input
             type="text"
             placeholder="Enter the topic of your Nature Poem"
@@ -31,10 +32,7 @@
         <br />
         <br />
       </main>
-      <div class="poem">
-        Ever, ever <br />
-        Stir and shiver <br />The reeds and rushes <br />By the river:
-      </div>
+      <div class="poem" id="poem"></div>
       <br />
       <footer>
         This AI project was coded by
