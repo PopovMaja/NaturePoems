@@ -1,6 +1,7 @@
 body {
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .container {
   margin: 120px auto;
@@ -14,12 +15,19 @@ h1 {
   background-color: rgb(255, 255, 255, 0.6);
   border-radius: 4px;
 }
-form {
+.form-container {
   background-color: rgb(100, 135, 81, 0.7);
-  display: flex;
-  padding: 30px;
   border-radius: 4px;
   border: 1px solid rgb(75, 107, 57);
+  padding: 20px;
+}
+form {
+  display: flex;
+}
+.hint {
+  font-size: 14px;
+  padding-top: 7px;
+  opacity: 0.8;
 }
 .enter-topic-box {
   padding: 10px;
@@ -49,6 +57,12 @@ form {
   line-height: 28px;
   border-left: 5px solid rgb(75, 107, 57);
 }
+.hidden {
+  display: none;
+}
+.poem strong {
+  color: rgb(5, 53, 38);
+}
 footer {
   font-size: 16px;
   font-weight: 600;
@@ -63,6 +77,11 @@ a {
   font-size: 17px;
   text-decoration: none;
 }
-.poem strong {
-  color: rgb(5, 53, 38);
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.loading {
+  animation: blink 1s step-start 0s infinite;
 }

@@ -19,24 +19,25 @@
       <header><h1>Nature Poems Generator</h1></header>
 
       <main>
-        <form id="enter-submit-box">
-          <input
-            type="text"
-            placeholder="Enter the topic of your Nature Poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="enter-topic-box"
-            id="users-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="enter-submit-box">
+            <input
+              type="text"
+              placeholder="Enter the topic of your Nature Poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="enter-topic-box"
+              id="users-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e:Flower, Sun or River</div>
+        </div>
         <br />
         <br />
       </main>
-      <div class="poem" id="poem">
-        Peace can be found in every piece of nature...
-      </div>
+      <div class="poem hidden blink" id="poem"></div>
       <br />
       <footer>
         This AI project was coded by
