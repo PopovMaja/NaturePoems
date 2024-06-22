@@ -26,7 +26,7 @@ form {
 }
 .hint {
   font-size: 14px;
-  padding-top: 7px;
+  margin-top: 7px;
   opacity: 0.8;
 }
 .enter-topic-box {
@@ -64,7 +64,7 @@ form {
   color: rgb(5, 53, 38);
 }
 footer {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-align: center;
   margin-top: 10px;
@@ -74,7 +74,7 @@ footer {
 a {
   color: rgb(5, 53, 38);
   font-weight: 800;
-  font-size: 17px;
+  font-size: 15px;
   text-decoration: none;
 }
 @keyframes blink {
